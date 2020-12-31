@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: RGB(247,247,247);
+}
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.r-v-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.v-space-around{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.r-center{
+    display: flex;
+    justify-content: center;
+}
+/*组件的主容器*/
+.container {
+    width: 80%;
+    margin: 3% auto;
+    background-color: white;
+    padding: 0 2%;
+    font-size: 1.3rem;
+}
+/*通用按钮、确认按钮和返回按钮*/
+.checkButton{
+    padding: 1rem;  
+    border-radius: 3px;
+    margin:  5%;
+    width: 40%;
+    border:none;
+    background-color: RGB(237,70,70);
+    color: white;
+}
+.backButton{
+    padding: 1rem;  
+    border-radius: 3px;
+    margin:  5%;
+    width: 40%;
+border:solid 0.5px RGB(237,70,70);
+background-color: white;
+color:RGB(237,70,70)
+}
+/*填报页面和预览页面的公共样式*/
+.card {
+    width: 80%;
+    margin: 4% auto;
+    background-color: white;
+    padding: 0 2%;
+    font-size: 1.3rem;
+  }
+  .card :last-child{
+    border:none
+  }
+    .row {
+    padding: 4%;
+    vertical-align: middle;
+    border-bottom: solid 0.5px gray;
+  }
+  .label {
+    width: 25%;
+    display: inline-block;
+    word-break: break-all;
+    vertical-align: baseline;
+  }
+  .content {
+    width: 75%;
+    display: inline-block;
+    word-break: break-all;
+  }
