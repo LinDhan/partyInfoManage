@@ -5,7 +5,7 @@ const bodyParser=require('body-parser')
 //解析json格式
 app.use(bodyParser.json())
 
-
+//使用数据接口
 app.use('/api/manager',require('./Api/managerApi'))
 app.use('/api/user',require('./Api/userApi'))
 
