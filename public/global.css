@@ -1,6 +1,0 @@
-body{margin: 0;background-color: RGB(240,242,245);}
-.space-around{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
